@@ -1,17 +1,16 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+    <FaseCard fase="1"/>
+
   </q-page>
 </template>
 
 <script>
+import FaseCard from 'src/components/FaseCard.vue';
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'IndexPage'
+    name: 'IndexPage',
+    components: { FaseCard }
 })
 </script>
