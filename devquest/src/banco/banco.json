@@ -1,0 +1,21 @@
+{
+  "fases": [
+    {
+      "id": 1,
+      "titulo": "Fase 1",
+      "texto": "Texto da fase 1",
+      "background": "fase1.jpg",
+      "imagem": "fase1.png",
+      "opcoes": [
+        {
+          "texto": "Opção 1",
+          "destino": 2
+        },
+        {
+          "texto": "Opção 2",
+          "destino": 3
+        }
+      ]
+    }
+  ]
+}
