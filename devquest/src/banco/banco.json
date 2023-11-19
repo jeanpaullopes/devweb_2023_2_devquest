@@ -8,12 +8,37 @@
       "imagem": "fase1.png",
       "opcoes": [
         {
-          "texto": "Opção 1",
+          "texto": "ir para o passo 2",
           "destino": 2
+        },
+        {
+          "texto": "Não sei o que fazer",
+          "destino": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Fase 2",
+      "texto": "Texto da fase 2",
+      "background": "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg",
+      "imagem": "fase1.png",
+      "opcoes": [
+        {
+          "texto": "voltar",
+          "destino": 1
         },
         {
           "texto": "Opção 2",
           "destino": 3
+        },
+        {
+          "texto": "Opção 4",
+          "destino": 4
+        },
+        {
+          "texto": "Opção 5",
+          "destino": 5
         }
       ]
     }

@@ -1,6 +1,8 @@
 <template>
+  {{ idx }}
   <q-page class="flex flex-center">
-    <FaseCard fase="1"/>
+    <FaseCard :fase="idx" @gritei="trataEvento"/>
+    <FaseCard :fase="idx+1" @gritei="trataEvento"/>
 
   </q-page>
 </template>
@@ -11,6 +13,16 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: 'IndexPage',
-    components: { FaseCard }
+    components: { FaseCard },
+    data() {
+        return {
+          idx: 1
+        }
+    },
+    methods: {
+      trataEvento(val) {
+        this.idx = val
+      }
+    }
 })
 </script>
